@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Happy Birthday Love ❤️</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1>Happy Birthday Love ❤️</h1>
+
+<div class="message">
+
+<p>
+In life I am so lucky to have you. I am really sorry for every mistake I made. 
+You are very special in my life and I never want to lose you. 
+I want us to be happy together, go on adventures, road trips, and bike rides. 
+I have so many dreams with you. I love you so much Ashu. 
+One day I want to marry you and build a beautiful life together hey Bharya ur my girl so strong and be happy bharya love u. ❤️
+</p>
+
+</div>
+
+</div>
+
+
+<div class="slider">
+
+<div class="slides fade">
+<img src="photo1.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo2.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo3.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo4.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo5.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo6.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo7.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo8.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo9.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo10.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo11.jpg">
+</div>
+
+<div class="slides fade">
+<img src="photo12.jpg">
+</div>
+
+</div>
+
+
+<script>
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+
+let slides = document.getElementsByClassName("slides");
+
+for (let i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+
+slideIndex++;
+
+if (slideIndex > slides.length) {
+slideIndex = 1
+}
+
+slides[slideIndex-1].style.display = "block";
+
+setTimeout(showSlides, 3000);
+
+}
+
+</script>
+
+</body>
+</html>

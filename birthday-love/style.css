@@ -1,0 +1,74 @@
+body{
+
+margin:0;
+font-family:Arial;
+text-align:center;
+
+background:linear-gradient(45deg,#ff4e50,#fc913a,#f9d423,#ff6ec4,#6a82fb);
+background-size:400% 400%;
+animation:bgmove 10s infinite;
+
+color:white;
+
+}
+
+@keyframes bgmove{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+.hero{
+
+padding:40px;
+
+}
+
+h1{
+
+font-size:60px;
+margin-bottom:20px;
+
+}
+
+.message{
+
+background:rgba(255,255,255,0.2);
+padding:25px;
+border-radius:20px;
+max-width:700px;
+margin:auto;
+font-size:20px;
+
+}
+
+.slider{
+
+margin-top:40px;
+
+}
+
+.slides img{
+
+width:350px;
+height:450px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 15px 30px rgba(0,0,0,0.4);
+
+}
+
+.fade{
+
+animation:fade 1.5s;
+
+}
+
+@keyframes fade{
+
+from{opacity:0.4}
+to{opacity:1}
+
+}
